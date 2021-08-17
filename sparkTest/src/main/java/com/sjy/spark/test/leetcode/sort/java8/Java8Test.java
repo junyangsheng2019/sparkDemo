@@ -1,6 +1,5 @@
 package com.sjy.spark.test.leetcode.sort.java8;
 
-import com.google.common.collect.Lists;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -40,7 +39,7 @@ public class Java8Test {
 
 
         }
-        Lists.partition(list,100);
+//        Lists.partition(list,100);
         //java8遍历
         personList.forEach(p -> System.out.println(p.getAge()));
         //按照person的 age进行排序
